@@ -1,0 +1,215 @@
+{
+  "seller": [
+    {
+      "name": "Aniket Bhunia",
+      "email": "abc123@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Aniket patra",
+      "email": "abc123@gmail.com",
+      "password": "abc@1234",
+      "id": 2
+    },
+    {
+      "name": "Silpa patra",
+      "email": "silpa123@gmail.com",
+      "password": "silpa@1234",
+      "id": 3
+    },
+    {
+      "name": "toney",
+      "password": "abc@123",
+      "email": "1929075@kiit.ac.in",
+      "id": 4
+    },
+    {
+      "name": "toney",
+      "password": "abc@123",
+      "email": "1929075@kiit.ac.in",
+      "id": 5
+    },
+    {
+      "name": "joshn",
+      "password": "123@123",
+      "email": "abcd@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Soumili",
+      "password": "8990mini",
+      "email": "soumili123@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 8
+    },
+    {
+      "name": "hi",
+      "password": "ffdsvgdsv",
+      "email": "abcuhc@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "Hose",
+      "password": "123456",
+      "email": "lisa@blackpink.com",
+      "id": 10
+    },
+    {
+      "name": "acac",
+      "password": "cacasc",
+      "email": "cacaca",
+      "id": 11
+    },
+    {
+      "name": "cadvdv",
+      "password": "vvsdvsvsdv",
+      "email": "vsvsdv",
+      "id": 12
+    },
+    {
+      "name": "Aniket Bhunia",
+      "password": "shdvsvhvhv",
+      "email": "admin@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "Anita",
+      "password": "cgshchhshidhsdgc",
+      "email": "vic4@gmail.com",
+      "id": 14
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone 14",
+      "price": "110000",
+      "category": "Mobiles",
+      "color": "Black",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-blue?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661026582322",
+      "description": "Ghar jayga isme tera",
+      "id": 1
+    },
+    {
+      "name": "xiaomi 12 pro max",
+      "price": "25000",
+      "color": "red",
+      "category": "Mobiles",
+      "description": "Le sakta hai tu yeh",
+      "image": "https://m.media-amazon.com/images/I/31UhwG+XTJL._SY300_SX300_.jpg",
+      "id": 2
+    },
+    {
+      "name": "MSI GF63 Thin Gaming Laptop",
+      "price": "65990",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Intel 11th Gen. i7-11800H, 40CM FHD,144Hz Refresh rate",
+      "image": "https://m.media-amazon.com/images/I/71BCum1YVzL._SL1500_.jpg",
+      "id": 3
+    },
+    {
+      "name": "Echo Dot (3rd Gen)",
+      "price": "3499",
+      "color": "Black",
+      "category": "Home Accessories",
+      "description": "Null",
+      "image": "https://m.media-amazon.com/images/I/61WUqJd4dfS._SL1000_.jpg",
+      "id": 4
+    },
+    {
+      "name": "Boult Audio Z40 True Wireless in Ear Earbuds",
+      "price": "1498",
+      "color": "Black",
+      "category": "Wireless Earbuds",
+      "description": " 60H Playtime, Zen™ ENC Mic, Low Latency Gaming, Type-C Fast Charging, Made in India, 10mm Rich Bass Drivers, IPX5, Bluetooth 5.1 Ear Buds TWS ",
+      "image": "https://m.media-amazon.com/images/I/61LlQRdDZ2L._SL1500_.jpg",
+      "id": 5
+    },
+    {
+      "name": "SanDisk Extreme microSD UHS I Card",
+      "price": "1209",
+      "color": "red",
+      "category": "MicroSd Card",
+      "description": "28GB for 4K Video on Smartphones,Action Cams 190MB/s Read,90MB/s Write",
+      "image": "https://m.media-amazon.com/images/I/815cRpgAN3L._SL1500_.jpg",
+      "id": 6
+    },
+    {
+      "name": "Samsung Washing Machine",
+      "price": "27990",
+      "color": "White, Diamond Drum",
+      "category": "Washing Machine",
+      "description": "7 Kg 5 Star Inverter, Hygiene Steam Fully-Automatic Front Loading",
+      "image": "https://m.media-amazon.com/images/I/7144KdCjAyL._SL1500_.jpg",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "name": "Aniket Bhunia",
+      "password": "fgdtd",
+      "email": "onlyforregister213@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Anita",
+      "password": "afgdb",
+      "email": "vic4@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Asasdc",
+      "password": "chsdgchbSDc",
+      "email": "vic4@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Anita",
+      "password": "dwfwef",
+      "email": "1929075@kiit.ac.in",
+      "id": 4
+    },
+    {
+      "name": "sdvsvv",
+      "password": "vSDvSv",
+      "email": "admin@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "vssv",
+      "password": "sdv",
+      "email": "onlyforregister213@gmail.com",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "name": "Boult Audio Z40 True Wireless in Ear Earbuds",
+      "price": "1,498",
+      "color": "Black",
+      "category": "Wireless Earbuds",
+      "description": " 60H Playtime, Zen™ ENC Mic, Low Latency Gaming, Type-C Fast Charging, Made in India, 10mm Rich Bass Drivers, IPX5, Bluetooth 5.1 Ear Buds TWS ",
+      "image": "https://m.media-amazon.com/images/I/61LlQRdDZ2L._SL1500_.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "bhuniaaniket70@gmail.com",
+      "address": "Village - Dhamtore , Post - Dhamtore ,, Dist - Paschim Medinipur , House No. - A-9",
+      "contact": "9064092625",
+      "totalPrice": 22540,
+      "userId": 4,
+      "id": 1
+    }
+  ]
+}

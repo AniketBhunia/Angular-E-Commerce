@@ -1,0 +1,27 @@
+.product-list{
+    text-align: center;
+    margin-bottom: 100px;
+}
+h1{
+    color: blueviolet;
+}
+table{
+    /* padding-right: 80px; */
+    /* padding: 20px; */
+    text-align: center;
+    color: blueviolet;
+    border-collapse: collapse;
+    margin:auto;
+}
+table td,table th{
+    border: 1px solid blueviolet;
+    padding: 15px;
+    min-width: 140px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.edit-button{
+    margin-left: 10px;
+}

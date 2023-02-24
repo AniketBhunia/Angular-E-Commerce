@@ -1,0 +1,11 @@
+.add-product h1{
+    color: blueviolet;
+    text-align: center;
+    padding: 20px;
+}
+.add-product{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
