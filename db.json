@@ -5,84 +5,6 @@
       "email": "abc123@gmail.com",
       "password": "abc@123",
       "id": 1
-    },
-    {
-      "name": "Aniket patra",
-      "email": "abc123@gmail.com",
-      "password": "abc@1234",
-      "id": 2
-    },
-    {
-      "name": "Silpa patra",
-      "email": "silpa123@gmail.com",
-      "password": "silpa@1234",
-      "id": 3
-    },
-    {
-      "name": "toney",
-      "password": "abc@123",
-      "email": "1929075@kiit.ac.in",
-      "id": 4
-    },
-    {
-      "name": "toney",
-      "password": "abc@123",
-      "email": "1929075@kiit.ac.in",
-      "id": 5
-    },
-    {
-      "name": "joshn",
-      "password": "123@123",
-      "email": "abcd@gmail.com",
-      "id": 6
-    },
-    {
-      "name": "Soumili",
-      "password": "8990mini",
-      "email": "soumili123@gmail.com",
-      "id": 7
-    },
-    {
-      "name": "",
-      "password": "",
-      "email": "",
-      "id": 8
-    },
-    {
-      "name": "hi",
-      "password": "ffdsvgdsv",
-      "email": "abcuhc@gmail.com",
-      "id": 9
-    },
-    {
-      "name": "Hose",
-      "password": "123456",
-      "email": "lisa@blackpink.com",
-      "id": 10
-    },
-    {
-      "name": "acac",
-      "password": "cacasc",
-      "email": "cacaca",
-      "id": 11
-    },
-    {
-      "name": "cadvdv",
-      "password": "vvsdvsvsdv",
-      "email": "vsvsdv",
-      "id": 12
-    },
-    {
-      "name": "Aniket Bhunia",
-      "password": "shdvsvhvhv",
-      "email": "admin@gmail.com",
-      "id": 13
-    },
-    {
-      "name": "Anita",
-      "password": "cgshchhshidhsdgc",
-      "email": "vic4@gmail.com",
-      "id": 14
     }
   ],
   "products": [
@@ -156,60 +78,10 @@
       "password": "fgdtd",
       "email": "onlyforregister213@gmail.com",
       "id": 1
-    },
-    {
-      "name": "Anita",
-      "password": "afgdb",
-      "email": "vic4@gmail.com",
-      "id": 2
-    },
-    {
-      "name": "Asasdc",
-      "password": "chsdgchbSDc",
-      "email": "vic4@gmail.com",
-      "id": 3
-    },
-    {
-      "name": "Anita",
-      "password": "dwfwef",
-      "email": "1929075@kiit.ac.in",
-      "id": 4
-    },
-    {
-      "name": "sdvsvv",
-      "password": "vSDvSv",
-      "email": "admin@gmail.com",
-      "id": 5
-    },
-    {
-      "name": "vssv",
-      "password": "sdv",
-      "email": "onlyforregister213@gmail.com",
-      "id": 6
     }
   ],
   "cart": [
-    {
-      "name": "Boult Audio Z40 True Wireless in Ear Earbuds",
-      "price": "1,498",
-      "color": "Black",
-      "category": "Wireless Earbuds",
-      "description": " 60H Playtime, Zen™ ENC Mic, Low Latency Gaming, Type-C Fast Charging, Made in India, 10mm Rich Bass Drivers, IPX5, Bluetooth 5.1 Ear Buds TWS ",
-      "image": "https://m.media-amazon.com/images/I/61LlQRdDZ2L._SL1500_.jpg",
-      "quantity": 1,
-      "productId": 5,
-      "userId": 1,
-      "id": 1
-    }
   ],
   "orders": [
-    {
-      "email": "bhuniaaniket70@gmail.com",
-      "address": "Village - Dhamtore , Post - Dhamtore ,, Dist - Paschim Medinipur , House No. - A-9",
-      "contact": "9064092625",
-      "totalPrice": 22540,
-      "userId": 4,
-      "id": 1
-    }
   ]
 }
