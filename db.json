@@ -20,7 +20,7 @@
     {
       "name": "xiaomi 12 pro max",
       "price": "25000",
-      "color": "red",
+      "color": "Black",
       "category": "Mobiles",
       "description": "5G (Noir Black, 12GB RAM, 256GB Storage) | Snapdragon 8 Gen 1 | 50+50+50MP Flagship Cameras (OIS) | 10bit 2K+ Curved AMOLED Display | Sound by Harman Kardon",
       "image": "https://m.media-amazon.com/images/I/31UhwG+XTJL._SY300_SX300_.jpg",
@@ -88,6 +88,87 @@
       "description": "6.8” Dynamic AMOLED 2X Infinity-O QHD+ Edge Screen. 120Hz Adaptive Refresh Rate|5,000mAh battery|12GB Memory | 256GB / 512GB / 1TB Storage|Main Camera: 200MP Wide. Front Camera: 12MP",
       "image": "https://m.media-amazon.com/images/I/61VfL-aiToL._SL1500_.jpg",
       "id": 9
+    },
+    {
+      "name": "boAt Flash Edition Smart Watch",
+      "price": "1199",
+      "color": "Black",
+      "category": "Smart Watch",
+      "image": "https://m.media-amazon.com/images/I/61hVGtfIXGL._SL1500_.jpg",
+      "description": "Activity Tracker, Multiple Sports Modes, 1.3\" Screen, 170+ Watch Faces, Sleep Monitor, Gesture, Camera & Music Control, IP68 & 7 Days Battery",
+      "id": 10
+    },
+    {
+      "name": "Xiaomi Pad 5",
+      "price": "26999",
+      "color": "Gray",
+      "category": "Tablets",
+      "image": "https://m.media-amazon.com/images/I/61Eb9vtdSML._SL1500_.jpg",
+      "description": " Qualcomm Snapdragon 860| 120Hz Refresh Rate| 6GB, 128GB| 2.5K+ Display (10.95-inch/27.81cm)|1 Billion Colours| Dolby Vision Atmos| Quad Speakers| Wi-Fi|",
+      "id": 11
+    },
+    {
+      "name": "boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds",
+      "price": "1499",
+      "color": "Black",
+      "category": "Earbuds",
+      "image": "https://m.media-amazon.com/images/I/51HBom8xz7L._SL1500_.jpg",
+      "description": "42H Playtime, Beast Mode(Low Latency Upto 80ms) for Gaming, ENx Tech, ASAP Charge, IWP, IPX4 Water Resistance ",
+      "id": 12
+    },
+    {
+      "name": "Redmi Smart Band Pro",
+      "price": "1999",
+      "color": "Black",
+      "category": "Smart Band",
+      "image": "https://m.media-amazon.com/images/I/71wkKP7Hj2L._SL1500_.jpg",
+      "description": "3.73 cm (1.47) Large AMOLED Display, Always On Display, Continuous Sleep, HR, Stress and SPO2 Monitoring, 110+ Sports Modes, 5ATM, 14 Days Battery Life",
+      "id": 13
+    },
+    {
+      "name": "SENS EDYSON 1 Smartwatch",
+      "price": "1699",
+      "color": "Grey",
+      "category": "Smartwatch",
+      "image": "https://m.media-amazon.com/images/I/61lbCOGaZOL._SL1500_.jpg",
+      "description": "1.7 Display, BT Calling, AI Voice Assistant, 150+ Watch Faces & Free Additional Strap",
+      "id": 14
+    },
+    {
+      "name": "OnePlus 10R 5G",
+      "price": "38999",
+      "color": "Green",
+      "category": "Mobiles",
+      "image": "https://m.media-amazon.com/images/I/61wjcgpsOGL._SL1500_.jpg",
+      "description": "Forest Green, 12GB RAM, 256GB Storage, 80W SuperVOOC)",
+      "id": 15
+    },
+    {
+      "name": "Logitech G102 Light Sync Gaming Wired Mouse",
+      "price": "1045",
+      "color": "White",
+      "category": "Mouse",
+      "image": "https://m.media-amazon.com/images/I/519Xke4dPdL._SL1500_.jpg",
+      "description": "Customizable RGB Lighting, 6 Programmable Buttons, Gaming Grade Sensor, 8 k dpi Tracking,16.8mn Color, Light Weight",
+      "id": 16
+    },
+    {
+      "name": "TP-Link RE650 AC2600 Universal Dual Band Range Extender",
+      "price": "7000",
+      "color": "White",
+      "category": "Extender",
+      "image": "https://m.media-amazon.com/images/I/51GyT8KanJL._SL1000_.jpg",
+      "description": "Broadband/Wi-Fi Extender, Wi-Fi Booster/Hotspot with 1 Gigabit Port and 4 External Antennas, Built-in Access Point Mode New\n",
+      "id": 17
+    },
+    {
+      "name": "Samsung Galaxy M13 ",
+      "price": "10999",
+      "color": "Green",
+      "category": "Mobiles",
+      "description": "Aqua Green, 4GB, 64GB Storage) | 6000mAh Battery | Upto 8GB RAM with RAM Plus",
+      "image": "https://m.media-amazon.com/images/I/61P2ioT2+ZL._SL1500_.jpg",
+      "id": 18
     }
   ],
   "users": [

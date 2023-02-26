@@ -1,13 +1,25 @@
 <div class="add-product">
-<h1>Add New Product</h1>
-<p class="message-p">{{addProductMessage}} </p>
-<form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
-    <input class="form-input" type="text" ngModel name="name" placeholder="Enter Product Name" />
-    <input class="form-input" type="text" ngModel name="price" placeholder="Enter Product Price" />
-    <input class="form-input" type="text" ngModel name="color" placeholder="Enter Product Color" />
-    <input class="form-input" type="text" ngModel name="category" placeholder="Enter Product Category" />
-    <textarea class="form-input" type="text" ngModel name="description" placeholder="Enter Product Description"></textarea>
-    <input class="form-input" type="text" ngModel name="image" placeholder="Enter Product Image URl" />
-    <button class="form-button">Add Product</button>
-</form>
-</div> 
+    <h1>Add New Product</h1>
+    <!-- <p class="message-p">{{addProductMessage}} </p> -->
+    <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="form-style-9">
+        <ul>
+            <li><input class="field-style field-split align-left" type="text" ngModel name="name" placeholder="Enter Product Name" />
+                <input class="field-style field-split align-right" type="text" ngModel name="price" placeholder="Enter Product Price" />
+            </li>
+            <li><input class="field-style field-split align-left" type="text" ngModel name="color" placeholder="Enter Product Color" />
+                <input class="field-style field-split align-right" type="text" ngModel name="category" placeholder="Enter Product Category" />
+            </li>
+            <li>
+                <input class="field-style field-full align-none" type="text" ngModel name="image" placeholder="Enter Product Image URl" />
+            </li>
+            <li>
+                <textarea class="field-style" type="text" ngModel name="description"
+                    placeholder="Enter Product Description"></textarea>
+            </li>
+            <li>
+                <button class="form-button">Add Product</button>
+                <p class="message-p">{{addProductMessage}} </p>
+            </li>
+        </ul>
+    </form>
+</div>
