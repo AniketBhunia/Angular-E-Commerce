@@ -11,10 +11,10 @@
     {
       "name": "Iphone 14",
       "price": "110000",
-      "category": "Mobiles",
       "color": "Black",
-      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-blue?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661026582322",
-      "description": "Ghar jayga isme tera",
+      "category": "Mobiles",
+      "description": "17.00 cm (6.7-inch) Super Retina XDR display featuring Always-On and ProMotion\nDynamic Island, a magical new way to interact with iPhone\n48MP Main camera for up to 4x greater resolution\nCinematic mode now in 4K Dolby Vision up to 30 fps\nAction mode for smooth, steady, handheld videos",
+      "image": "https://m.media-amazon.com/images/I/71yzJoE7WlL._SL1500_.jpg",
       "id": 1
     },
     {
@@ -22,7 +22,7 @@
       "price": "25000",
       "color": "red",
       "category": "Mobiles",
-      "description": "Le sakta hai tu yeh",
+      "description": "5G (Noir Black, 12GB RAM, 256GB Storage) | Snapdragon 8 Gen 1 | 50+50+50MP Flagship Cameras (OIS) | 10bit 2K+ Curved AMOLED Display | Sound by Harman Kardon",
       "image": "https://m.media-amazon.com/images/I/31UhwG+XTJL._SY300_SX300_.jpg",
       "id": 2
     },
@@ -40,7 +40,7 @@
       "price": "3499",
       "color": "Black",
       "category": "Home Accessories",
-      "description": "Null",
+      "description": "New and improved smart speaker with Alexa",
       "image": "https://m.media-amazon.com/images/I/61WUqJd4dfS._SL1000_.jpg",
       "id": 4
     },
@@ -70,6 +70,24 @@
       "description": "7 Kg 5 Star Inverter, Hygiene Steam Fully-Automatic Front Loading",
       "image": "https://m.media-amazon.com/images/I/7144KdCjAyL._SL1500_.jpg",
       "id": 7
+    },
+    {
+      "name": "Britannia Milk Bikis Biscuits",
+      "price": "90",
+      "color": "blue",
+      "category": "Biscuits",
+      "description": "500g",
+      "image": "https://m.media-amazon.com/images/I/713zSw3m0bL._SL1500_.jpg",
+      "id": 8
+    },
+    {
+      "name": "Samsung Galaxy S23 Ultra 5G ",
+      "price": "124999",
+      "color": "Green",
+      "category": "Mobiles",
+      "description": "6.8” Dynamic AMOLED 2X Infinity-O QHD+ Edge Screen. 120Hz Adaptive Refresh Rate|5,000mAh battery|12GB Memory | 256GB / 512GB / 1TB Storage|Main Camera: 200MP Wide. Front Camera: 12MP",
+      "image": "https://m.media-amazon.com/images/I/61VfL-aiToL._SL1500_.jpg",
+      "id": 9
     }
   ],
   "users": [
@@ -80,8 +98,6 @@
       "id": 1
     }
   ],
-  "cart": [
-  ],
-  "orders": [
-  ]
+  "cart": [],
+  "orders": []
 }

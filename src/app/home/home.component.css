@@ -1,5 +1,10 @@
-.product-list-wrapper h1 {
+.container h1 {
     text-align: center;
+    color: blueviolet;
+    margin-right: 80px;
+    font-weight: 600;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .product-header-image {
@@ -8,41 +13,91 @@
     width: 100%;
 }
 
-.product-list-wrapper {
-    /* margin-left: 80px; */
+/* .product-list-wrapper {
     margin-top: 80px;
     margin-bottom: 80px;
-}
+} */
 
-.product-item {
-    margin-bottom: 40px;
-    border: 1px solid #ccc;
-    margin-right: 25px;
-}
+/* .product-item {
+    margin-bottom: 100px;
+    border: 10px solid #ccc;
+    margin-right: 10px;
+    margin-left: 10px;
+} */
 
-.product-item img {
+/* .product-item img {
     width: 100%;
     height: 300px;
     object-fit: contain;
-}
+} */
 
-.product-item .product-details {
+/* .product-item .product-details {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     padding: 15px;
-}
+} */
 
-.product-item .name-head {
+/* .product-item .name-head {
     font-size: 20px;
     font-weight: 600;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
 
-.product-item .product-details h6 {
+/* .product-item .product-details h6 {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* .product-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} */
+/* .d-flex{
+    margin-left: 80px;
+} */
+.row{
+    margin-right: 10px;
+    margin-left: -30px;
+}
+body {
+    background: #eee
 }
 
-.product-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+/* .ratings i {
+    font-size: 16px;
+    color: red
+} */
+
+.strike-text {
+    color: red;
+    text-decoration: line-through;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 3px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.spec-1 {
+    color: #938787;
+    font-size: 15px
+}
+
+h5 {
+    font-weight: 400
+}
+
+.para {
+    font-size: 16px
 }

@@ -1,57 +1,68 @@
-.nav {
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: bisque;
 }
 
-.nav h1 {
+.navbar h1 {
     color: blueviolet;
     margin: 0;
+    font-weight: 600;
+
     /* font-size: 40px;
     margin-left: -40px; */
 
 }
 
-.nav ul {
+.navbar ul {
     display: inline-flex;
     list-style-type: none;
-    margin: 0px;
-    margin-right: -3.1cm;
-    padding: 15px;
+    margin: -10px;
+    margin-right: 20px;
+    padding: 10px;
 }
 
-.nav li {
+.navbar li {
     padding-left: 15px;
     padding-top: 15px;
 }
 
-.nav li a {
+.navbar li a {
     text-decoration: none;
     color: blueviolet;
     cursor: pointer;
+    font-weight: 600;
 
 }
 
-.nav .nav-search {
+.navbar .nav-search {
     margin-top: 5px;
+    /* margin-right: 80px; */
     flex: 1;
     display: flex;
-    margin-left: 20%;
-    margin-right: 8%;
+    margin-left: 9%;
+    margin-right: 10px;
+    /* border-radius: 20px; */
 }
 
-.nav .nav-search input {
+.navbar .nav-search input {
     flex: 1;
     color: blueviolet;
-    border: 1px solid blueviolet;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.4);
     height: 39px;
     border-right: none;
+    border-radius: 3px;
 }
 
-.nav .nav-search button {
-    color: blueviolet;
+.navbar .nav-search button {
+    color: #fff;
     border: 1px solid blueviolet;
     height: 39px;
+    font-weight: 700;
+    border-radius: 3px;
+    background-color: #1268b3;
     /* border-left: none; */
 }
 
@@ -61,11 +72,14 @@ h1 a {
 }
 
 .search-suggestion {
+    /* margin-right: 60px; */
     position: absolute;
-    top: 40px;
+    left:auto;
+    top: 63px;
     z-index: 10;
     display: list-item !important;
-    border: 1px solid #ddd;
+    border: 1px solid #0d0000;
+    /* border-radius: 3px; */
     background-color: #fff;
     width: 300px;
 }

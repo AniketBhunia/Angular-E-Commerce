@@ -1,4 +1,4 @@
-<nav class="nav">
+<nav class="navbar">
     <h1><a routerLink="/">E-Comm</a></h1>
     <div *ngIf="menuType !== 'seller'" class="nav-search">
         <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search For Products" />
@@ -32,5 +32,4 @@
             <li><a>{{ sellerName | titlecase}}</a></li>
         </ul>
     </div>
-
 </nav>
