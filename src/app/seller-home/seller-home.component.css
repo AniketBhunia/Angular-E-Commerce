@@ -1,27 +1,112 @@
-.product-list{
+/* .product-list{
     text-align: center;
     margin-bottom: 100px;
 }
 h1{
     color: blueviolet;
-}
-table{
-    /* padding-right: 80px; */
-    /* padding: 20px; */
+} */
+/* table{
     text-align: center;
     color: blueviolet;
     border-collapse: collapse;
     margin:auto;
-}
-table td,table th{
+} */
+/* table td,table th{
     border: 1px solid blueviolet;
     padding: 15px;
     min-width: 140px;
+} */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+/* body {
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+} */
+
+section {
+    margin: 10px;
+    margin-bottom: 80px;
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
 }
-img{
-    width: 150px;
-    height: 150px;
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
 }
-.edit-button{
-    margin-left: 10px;
+
+.message-p {
+    text-align: center;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tbl-header {
+    /* background-color: rgba(220, 25, 25, 0.3); */
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.edit-button {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.del-button {
+    margin-left: 15px;
+    cursor: pointer;
 }

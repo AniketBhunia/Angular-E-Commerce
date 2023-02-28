@@ -9,25 +9,22 @@ import { ProductService } from '../services/product.service';
 })
 export class HeaderComponent implements OnInit {
   menuType: String = 'default'
-  sellerName: string = ''
-  userName: string= ''
+  sellerName: string = "";
+  userName: string= "";
   searchSuggestion: undefined | Product[]
   cartValue = 0
   constructor(private route: Router, private product: ProductService) {
   }
   ngOnInit(): void {
-    this.route.events.subscribe((value: any) => {
-      if (value.url) {
-        // console.warn(value.url)
-        if (localStorage.getItem('seller') && value.url.includes('seller')) {
-          // console.warn('In seller area')
-          if (localStorage.getItem('seller')) {
-            let sellerStore = localStorage.getItem('seller');
-            let sellerData = sellerStore && JSON.parse(sellerStore)[0]
-            this.sellerName = sellerData.name
-            this.menuType = "seller"
-          }
-        }else if(localStorage.getItem('user')){
+    this.route.events.subscribe((val: any) => {
+      if (val.url) {
+        if (localStorage.getItem('seller') && val.url.includes('seller')) {
+         let sellerStore=localStorage.getItem('seller');
+         let sellerData =sellerStore && JSON.parse(sellerStore);
+         this.sellerName=sellerData.name;
+          this.menuType = 'seller';
+        }
+        else if(localStorage.getItem('user')){
           let userStore = localStorage.getItem('user')
           let userData = userStore && JSON.parse(userStore)
           this.userName = userData.name
@@ -51,11 +48,11 @@ export class HeaderComponent implements OnInit {
   logout() {
     localStorage.removeItem('seller')
     this.route.navigate(['/'])
-    this.product.cartData.emit([])
   }
   userLogout(){
     localStorage.removeItem('user')
     this.route.navigate(['/user-auth'])
+    this.product.cartData.emit([])
   }
 
   searchProduct(query: KeyboardEvent) {

@@ -54,33 +54,6 @@
       "id": 5
     },
     {
-      "name": "SanDisk Extreme microSD UHS I Card",
-      "price": "1209",
-      "color": "red",
-      "category": "MicroSd Card",
-      "description": "28GB for 4K Video on Smartphones,Action Cams 190MB/s Read,90MB/s Write",
-      "image": "https://m.media-amazon.com/images/I/815cRpgAN3L._SL1500_.jpg",
-      "id": 6
-    },
-    {
-      "name": "Samsung Washing Machine",
-      "price": "27990",
-      "color": "White, Diamond Drum",
-      "category": "Washing Machine",
-      "description": "7 Kg 5 Star Inverter, Hygiene Steam Fully-Automatic Front Loading",
-      "image": "https://m.media-amazon.com/images/I/7144KdCjAyL._SL1500_.jpg",
-      "id": 7
-    },
-    {
-      "name": "Britannia Milk Bikis Biscuits",
-      "price": "90",
-      "color": "blue",
-      "category": "Biscuits",
-      "description": "500g",
-      "image": "https://m.media-amazon.com/images/I/713zSw3m0bL._SL1500_.jpg",
-      "id": 8
-    },
-    {
       "name": "Samsung Galaxy S23 Ultra 5G ",
       "price": "124999",
       "color": "Green",
@@ -153,15 +126,6 @@
       "id": 16
     },
     {
-      "name": "TP-Link RE650 AC2600 Universal Dual Band Range Extender",
-      "price": "7000",
-      "color": "White",
-      "category": "Extender",
-      "image": "https://m.media-amazon.com/images/I/51GyT8KanJL._SL1000_.jpg",
-      "description": "Broadband/Wi-Fi Extender, Wi-Fi Booster/Hotspot with 1 Gigabit Port and 4 External Antennas, Built-in Access Point Mode New\n",
-      "id": 17
-    },
-    {
       "name": "Samsung Galaxy M13 ",
       "price": "10999",
       "color": "Green",
@@ -169,6 +133,15 @@
       "description": "Aqua Green, 4GB, 64GB Storage) | 6000mAh Battery | Upto 8GB RAM with RAM Plus",
       "image": "https://m.media-amazon.com/images/I/61P2ioT2+ZL._SL1500_.jpg",
       "id": 18
+    },
+    {
+      "name": "OnePlus 11R 5G",
+      "price": "39999",
+      "color": "Silver",
+      "category": "Mobiles",
+      "image": "https://m.media-amazon.com/images/I/613SAOPmLeL._SL1500_.jpg",
+      "description": "Display: 6.7 Inches; 120 Hz Super Fluid AMOLED; Resolution: 2772 X 1240 pixels ,450 ppi, 20.1:9, 10-bit Color Depth, HDR10+\nOperating System: OxygenOS based on Android 13\nProcessor: Snapdragon 8+ Gen 1 Mobile Platform\n8GB LPDDR5X RAM, 128GB UFS3.1 STORAGE\nBattery & Charging: 5000 mAh with 100W SuperVOOC\nIn-Display Fingerprint Sensor",
+      "id": 19
     }
   ],
   "users": [
@@ -179,6 +152,28 @@
       "id": 1
     }
   ],
-  "cart": [],
-  "orders": []
+  "cart": [
+    {
+      "name": "xiaomi 12 pro max",
+      "price": "25000",
+      "color": "Black",
+      "category": "Mobiles",
+      "description": "5G (Noir Black, 12GB RAM, 256GB Storage) | Snapdragon 8 Gen 1 | 50+50+50MP Flagship Cameras (OIS) | 10bit 2K+ Curved AMOLED Display | Sound by Harman Kardon",
+      "image": "https://m.media-amazon.com/images/I/31UhwG+XTJL._SY300_SX300_.jpg",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "bhuniaaniket70@gmail.com",
+      "address": "Village - Dhamtore , Post - Dhamtore ,, Dist - Paschim Medinipur , House No. - A-9",
+      "contact": "9064092625",
+      "totalPrice": 26768.199999999997,
+      "userId": 1,
+      "id": 1
+    }
+  ]
 }
