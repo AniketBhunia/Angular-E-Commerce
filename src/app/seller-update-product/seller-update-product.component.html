@@ -1,4 +1,4 @@
-<div class="update-product">
+<!-- <div class="update-product">
     <h1>Update Product</h1>
     <p class="message-p">{{productMessage}} </p>
     <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
@@ -10,5 +10,35 @@
         <input class="form-input" type="text" ngModel="{{productData?.image}}" name="image" placeholder="Enter Product Image URl" />
         <button class="form-button">Update Product</button>
     </form>
-    </div> 
-    
+    </div>  -->
+
+<div class="update-product">
+    <h1>Update Product</h1>
+    <!-- <p class="message-p">{{addProductMessage}} </p> -->
+    <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="form-style-9">
+        <ul>
+            <li><input class="field-style field-split align-left" type="text" ngModel="{{productData?.name}}" name="name"
+                    placeholder="Enter Product Name" />
+                <input class="field-style field-split align-right" type="text" ngModel="{{productData?.price}}" name="price"
+                    placeholder="Enter Product Price" />
+            </li>
+            <li><input class="field-style field-split align-left" type="text" ngModel="{{productData?.color}}" name="color"
+                    placeholder="Enter Product Color" />
+                <input class="field-style field-split align-right" type="text" ngModel="{{productData?.category}}" name="category"
+                    placeholder="Enter Product Category" />
+            </li>
+            <li>
+                <input class="field-style field-full align-none" type="text" ngModel="{{productData?.image}}" name="image"
+                    placeholder="Enter Product Image URl" />
+            </li>
+            <li>
+                <textarea class="field-style" type="text" ngModel="{{productData?.description}}" name="description"
+                    placeholder="Enter Product Description"></textarea>
+            </li>
+            <li>
+                <button class="form-button">Update Product</button>
+                <p class="message-p">{{productMessage}} </p>
+            </li>
+        </ul>
+    </form>
+</div>

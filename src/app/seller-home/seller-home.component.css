@@ -26,9 +26,12 @@ h1{
 
 section {
     margin: 10px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
+    padding-bottom: 45px;
     background: -webkit-linear-gradient(left, #25c481, #25b7c4);
     background: linear-gradient(to right, #25c481, #25b7c4);
+    /* background: -webkit-linear-gradient(left, #18a66b, rgb(41, 133, 102));
+   background: linear-gradient(to right, #3ea87c,  rgb(41, 133, 102)); */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -64,7 +67,7 @@ table {
 }
 
 th {
-    padding: 20px 15px;
+    padding: 25px 15px;
     text-align: left;
     font-weight: 600;
     font-size: 15px;

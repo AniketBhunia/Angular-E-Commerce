@@ -5,6 +5,12 @@
       "email": "abc123@gmail.com",
       "password": "abc@123",
       "id": 1
+    },
+    {
+      "name": "Anita",
+      "password": "abc@123",
+      "email": "admin@gmail.com",
+      "id": 2
     }
   ],
   "products": [
